@@ -100,17 +100,17 @@ h1 {
 
 .columnA {
   display: inline-block;
-  padding-left: 20px;
+  padding-left: 25px;
   padding-top: 11px;
 }
 
 .columnB {
-  padding-left:40px;
+  padding-left:35px;
   display: inline-block;
 }
 
 .columnC {
-  padding-left: 60px;
+  padding-left: 77px;
   display: inline-block;
 }
 
@@ -164,9 +164,9 @@ h2 {
   text-transform: uppercase;
 }
 .arrives {
-  align-items: center;
-  color: ;
+  align-items: left;
   font-weight: 900;
+  text-align: right;
 }
 
 .fa-chevron-right {
