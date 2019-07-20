@@ -132,6 +132,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  line-height: 1.3;
   padding: 16px;
 }
 
@@ -158,11 +159,24 @@ h2 {
   text-align: left;
 }
 
-.status {
+.status_ontime {
   font-weight: 700;
   color: green;
   text-transform: uppercase;
 }
+
+.status_delayed {
+  font-weight: 700;
+  color: orange;
+  text-transform: uppercase;
+}
+
+.status_cancelled {
+  font-weight: 700;
+  color: red;
+  text-transform: uppercase;
+}
+
 .arrives {
   align-items: left;
   font-weight: 900;
@@ -182,6 +196,8 @@ footer {
   padding: 6px;
   height: 50px;
   width:375px;
+  position: fixed;
+  bottom: 0px;
  }
 
 .bottom_nav {
